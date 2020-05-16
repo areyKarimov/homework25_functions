@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Balsamiq+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="homework">
+        <h1>Homework 25 Functions</h1>
+        <div class="task">
+            <h2>Task 1</h2>
+            <p class="task__condition">Написать функцию, которая принимает 2 числа и возвращает -1, если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 – если числа равны.</p>
+            <input type="number" class="task__value" placeholder="Укажите первое число">
+            <input type="number" class="task__value" placeholder="Укажите второе число">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 2</h2>
+            <p class="task__condition">Написать функцию, которая вычисляет факториал переданного ей числа.</p>
+            <input type="number" class="task__value" placeholder="Укажите число от которого будет взять факториал">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 3</h2>
+            <p class="task__condition">Написать функцию, которая принимает три отдельные цифры и превращает их в одно число. Например: цифры 1, 4, 9 превратятся в число 149.</p>
+            <input type="number" class="task__value" placeholder="Введите первое число">
+            <input type="number" class="task__value" placeholder="Введите второе число">
+            <input type="number" class="task__value" placeholder="Введите третье число">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 4</h2>
+            <p class="task__condition">Написать функцию, которая принимает длину и ширину прямоугольника и вычисляет его площадь. Если в функцию передали 1 параметр, то она вычисляет площадь квадрата.</p>
+            <input type="number" class="task__value" placeholder="Введите длинну">
+            <input type="number" class="task__value" placeholder="Введите ширину">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 5</h2>
+            <p class="task__condition">Написать функцию, которая проверяет, является ли переданное ей число совершенным. Совершенное число – это число, равное сумме всех своих собственных делителей.</p>
+            <input type="number" class="task__value" placeholder="Введите число">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 6</h2>
+            <p class="task__condition">Написать функцию, которая принимает минимальное и максимальное значения для диапазона, и выводит только те числа из диапазона, которые являются совершенными. Используйте написанную ранее функцию, чтобы узнавать, совершенное число или нет.</p>
+            <input type="text" class="task__value" placeholder="Введите первое число диапазона">
+            <input type="text" class="task__value" placeholder="Введите второе число диапазона">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 7</h2>
+            <p class="task__condition">Написать функцию, которая принимает время (часы, минуты, секунды) и выводит его на экран в формате «чч:мм:сс».Если при вызове функции минуты и/или секунды не были переданы, то выводить их как 00..</p>
+            <input value="00" type="number" class="task__value" placeholder="Введите часы">
+            <input value="00" type="number" class="task__value" placeholder="Введите минуты">
+            <input value="00" type="number" class="task__value" placeholder="Введите секунды">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 8</h2>
+            <p class="task__condition">Написать функцию, которая принимает часы, минуты и секунды и возвращает это время в секундах.</p>
+            <input value="00" type="number" class="task__value" placeholder="Введите часы">
+            <input value="00" type="number" class="task__value" placeholder="Введите минуты">
+            <input value="00" type="number" class="task__value" placeholder="Введите секунды">
+            <button class="task__trigger">Click for answer</button>
+            <p class="task__answer"></p>
+        </div>
+        <div class="task">
+            <h2>Task 9</h2>
+            <p class="task__condition">Написать функцию, которая принимает количество секунд, переводит их в часы, минуты и секунды и возвращает в виде строки «чч:мм:сс»</p>
+            <input value="00" type="number" class="task__value" placeholder="Введите секунды">
+            <button class="task__trigger">Click for answer</button>
+            <table class="task__answer"></table>
+        </div>
+        <div class="task">
+            <h2>Task 10</h2>
+            <p class="task__condition">Написать функцию, которая считает разницу между датами. Функция принимает 6 параметров, которые описывают 2 даты, и возвращает результат в виде строки «чч:мм:сс». При выполнении задания используйте функции из предыдущих 2-х заданий: сначала обе даты переведите в секунды, узнайте разницу в секундах, а потом разницу переведите обратно в «чч:мм:сс»</p>
+            <input value="23:22:12" type="text" class="task__value" placeholder="Введите первую дату в формате 00:00:00">
+            <input value="24:22:12" type="text" class="task__value" placeholder="Введите врорую дату в формате 00:00:00">
+            <button class="task__trigger">Click for answer</button>
+            <table class="task__answer"></table>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
